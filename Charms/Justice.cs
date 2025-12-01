@@ -31,8 +31,7 @@
 
             if (!Equipped()) return;
 
-            // I got this code from [MAIN GITHUB PAGE]
-            // This is the file where I got it from: [GITHUB FILE PAGE]
+            // I can't find where I stole this from... oops...
             int mpReserve = PlayerData.instance.MPReserve;
             PlayerData.instance.AddMPCharge(SoulGainAmount);
             GameCameras.instance.soulOrbFSM.SendEvent("MP GAIN");

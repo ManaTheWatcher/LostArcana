@@ -14,6 +14,10 @@ namespace LostArcana
 {
     public class LostArcana : Mod, IMod, ILocalSettings<SaveSettings>, ITogglableMod
     {
+        // Most of this code is either from the Fyrenest or the Transcendence mod
+        // Link to the Fyrenest project: https://github.com/BubkisLord/Fyrenest
+        // Link to the Transcendence project: https://github.com/dpinela/Transcendence
+
         #region Basic mod stuff
         public LostArcana() : base("Lost Arcana") { }
         public override string GetVersion() => "0.0.0.1";
