@@ -1,0 +1,21 @@
+namespace LostArcana
+{
+    internal abstract class Charm
+    {
+        public abstract string Sprite { get; }
+        public abstract string Name { get; }
+        public abstract string Description { get; }
+        public abstract int DefaultCost { get; }
+
+        // assigned at runtime by SFCore's CharmHelper
+        public int Num { get; set; }
+
+        public bool Equipped() => PlayerData.instance.GetBool($"equippedCharm_{Num}");
+
+        public abstract CharmSettings Settings(SaveSettings s);
+
+        public virtual void Hook() { }
+        public virtual void Initialize() { }
+        public virtual List<(string obj, string fsm, Action<PlayMakerFSM> edit)> FsmEdits => new();
+    }
+}
