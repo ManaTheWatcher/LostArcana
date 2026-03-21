@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Chariot.png";
         public override string Name => "Chariot";
-        public override string Description => "The Chariot";
+        public override string Description => "The Chariot stands for success. They symbolize triumph by control and balance.\n\nAfter you use Dash, The next nail hit deals more damage";
         public override int DefaultCost => 2;
 
         private Chariot() { }
@@ -19,7 +19,7 @@
 
         // Declare variables
         private bool HasBoost = false;
-        private float DamageMultiplier = 1.5f;
+        private float DamageMultiplier = 1.25f;
 
         public override void Hook()
         {

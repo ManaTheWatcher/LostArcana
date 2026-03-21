@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "HighPriestess.png";
         public override string Name => "High Priestess";
-        public override string Description => "The High Priestess";
-        public override int DefaultCost => 3;
+        public override string Description => "The High Priestess brings duality and calls to your intuition.\n\nIncreases the amount of SOUL gained by nail hits when you're low on it.";
+        public override int DefaultCost => 2;
 
         private HighPriestess() { }
 

@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Death.png";
         public override string Name => "Death";
-        public override string Description => "Death";
+        public override string Description => "Death is way more than its mask might show. Death is all about change. The end of a scene into the start of another one.\n\nAllows you to sprint while holding Dash.";
         public override int DefaultCost => 2;
 
         private Death() { }

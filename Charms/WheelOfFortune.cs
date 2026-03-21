@@ -11,8 +11,8 @@ namespace LostArcana
         // Set basic charm data
         public override string Sprite => "WheelOfFortune.png";
         public override string Name => "Wheel Of Fortune";
-        public override string Description => "The Wheel Of Fortune";
-        public override int DefaultCost => 2;
+        public override string Description => "The Wheel Of Fortune asks you to take matter into your own hands. To take control of your life and decide where it goes next.\n\nIf you hit with a Nail Art, you can hold Attack to instantly charge a new Nail Art.";
+        public override int DefaultCost => 3;
 
         private WheelOfFortune() { }
 

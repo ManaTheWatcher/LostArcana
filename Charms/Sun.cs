@@ -10,7 +10,7 @@ namespace LostArcana
         // Set basic charm data
         public override string Sprite => "Sun.png";
         public override string Name => "Sun";
-        public override string Description => "The Sun";
+        public override string Description => "The Sun brings warmth and luck to those around them. A shining beacon of pure light.\n\nShortly increases your attack speed after hitting an enemy with the Dream Nail.";
         public override int DefaultCost => 2;
 
         private Sun() { }

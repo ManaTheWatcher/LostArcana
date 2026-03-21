@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Hermit.png";
         public override string Name => "Hermit";
-        public override string Description => "The Hermit";
+        public override string Description => "The Hermit stands for peace and wisdom. They encourage you to take a quick break to look back and reflect.\n\nIncreases the amount of SOUL gained with your Nail Arts.";
         public override int DefaultCost => 1;
 
         private Hermit() { }

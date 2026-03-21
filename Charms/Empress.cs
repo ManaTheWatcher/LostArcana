@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Empress.png";
         public override string Name => "Empress";
-        public override string Description => "The Empress";
-        public override int DefaultCost => 1;
+        public override string Description => "The Empress symbolizes creativity and bountyfulness and brings growth to those around them.\n\nIncreases the range of the nail by adding a thin, spear-like tip to it.";
+        public override int DefaultCost => 3;
 
         private Empress() { }
 

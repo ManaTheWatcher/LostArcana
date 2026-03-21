@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Devil.png";
         public override string Name => "Devil";
-        public override string Description => "The Devil";
-        public override int DefaultCost => 1;
+        public override string Description => "The Devil is vicous at times and forgiving at others, but you always need to keep an eye out for pitfalls.\n\nYou build up a shield by hitting enemies.";
+        public override int DefaultCost => 2;
 
         private Devil() { }
 

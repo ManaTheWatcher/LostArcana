@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Justice.png";
         public override string Name => "Justice";
-        public override string Description => "Justice";
-        public override int DefaultCost => 3;
+        public override string Description => "Justice encourages self-assessment. Actions will bring consequences.\n\nYou gain a bunch of SOUL whenever you parry an attack.";
+        public override int DefaultCost => 1;
 
         private Justice() { }
 

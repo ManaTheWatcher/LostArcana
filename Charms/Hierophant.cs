@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Hierophant.png";
         public override string Name => "Hierophant";
-        public override string Description => "The Hierophant";
-        public override int DefaultCost => 3;
+        public override string Description => "The Hierophant is a spiritual guide and a teacher. They bring new knowledge to those willing to listen.\n\nTurns the blood of your enemies into Lifeblood.";
+        public override int DefaultCost => 1;
 
         private Hierophant() { }
 
@@ -18,9 +18,9 @@
         #endregion
 
         // Declare variables
-        private int HitsNeeded = 3;
+        private int HitsNeeded = 10;
         private int HitsCurrent;
-        private int MaxBlueHealthAdded = 3;
+        private int MaxBlueHealthAdded = 2;
 
         public override void Hook()
         {

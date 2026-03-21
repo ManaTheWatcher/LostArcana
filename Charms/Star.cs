@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Star.png";
         public override string Name => "Star";
-        public override string Description => "The Star";
-        public override int DefaultCost => 3;
+        public override string Description => "The Star is the most hopeful of all. They encourage you to be the main character of your own story.\n\nHeals you whenever you hit an enemy with the Dream Nail.";
+        public override int DefaultCost => 1;
 
         private Star() { }
 

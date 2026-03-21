@@ -142,7 +142,6 @@ namespace LostArcana
         private void OnLoadSave(SaveGameData obj)
         {
             PlayerData.instance.CalculateNotchesUsed();
-
         }
 
         #region Charm Language Replacements

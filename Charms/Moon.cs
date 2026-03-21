@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Moon.png";
         public override string Name => "Moon";
-        public override string Description => "The Moon";
-        public override int DefaultCost => 1;
+        public override string Description => "The Moon brings fear and illusions. They show us that fears usually stem from illusions we deem as truth\n\nIncreases your movement speed whenever an enemy is nearby.";
+        public override int DefaultCost => 2;
 
         private Moon() { }
 

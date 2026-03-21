@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Judgement.png";
         public override string Name => "Judgement";
-        public override string Description => "Judgement";
-        public override int DefaultCost => 3;
+        public override string Description => "Judgement is all about prejudices and reminds to check if they're actually true.\n\nEvery 3rd nail hit also deals damage over time.";
+        public override int DefaultCost => 1;
 
         private Judgement() { }
 
@@ -30,7 +30,6 @@
         private HitInstance TickDamage;
         private int TickAmount = 6;
         private float TickSpacing = 0.25f;
-        private int TickDamageAmount = 1;
 
         public override void Hook()
         {
@@ -44,7 +43,6 @@
 
             TickDamage = new HitInstance();
             TickDamage.AttackType = AttackTypes.Generic;
-            TickDamage.DamageDealt = TickDamageAmount;
             TickDamage.Multiplier = 1f;
             TickDamage.IgnoreInvulnerable = true;
         }
@@ -80,6 +78,9 @@
 
         private IEnumerator DamageEnemyCoroutine()
         {
+            //Sets the damage of each tick to 1/3 of the base nail damage
+            TickDamage.DamageDealt = Mathf.RoundToInt((float)PlayerData.instance.nailDamage/3);
+
             for (int i = 0; i < TickAmount; i++)
             {
                 yield return new WaitForSeconds(TickSpacing);

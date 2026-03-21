@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Emperor.png";
         public override string Name => "Emperor";
-        public override string Description => "The Emperor";
+        public override string Description => "The Emperor brings discipline and the ability to turn your goals into reality.\n\nDrastically increases the damage of your next nail hit when you finish a Focus.";
         public override int DefaultCost => 2;
 
         private Emperor() { }

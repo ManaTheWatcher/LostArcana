@@ -10,8 +10,8 @@ namespace LostArcana
         // Set basic charm data
         public override string Sprite => "Temperance.png";
         public override string Name => "Temperance";
-        public override string Description => "Temperance";
-        public override int DefaultCost => 3;
+        public override string Description => "Temperance stands for balance, healing and a sense of fulfillment.\n\nAllows you to use Dash and use Monarch Wings multiple times before landing back on the ground.";
+        public override int DefaultCost => 2;
 
         private Temperance() { }
 

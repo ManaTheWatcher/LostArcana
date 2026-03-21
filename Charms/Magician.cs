@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Magician.png";
         public override string Name => "Magician";
-        public override string Description => "The Magician";
+        public override string Description => "The Magician stands for manifestation and the power to make your dreams come true.\n\nIncreases your spell damage based on how much SOUL you have.";
         public override int DefaultCost => 2;
 
         private Magician() { }

@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Lovers.png";
         public override string Name => "Lovers";
-        public override string Description => "The Lovers";
+        public override string Description => "The Lovers brings choises and asks you to follow your heart.\n\nDeal damage around you when you use Monarch Wings";
         public override int DefaultCost => 1;
 
         private Lovers() { }

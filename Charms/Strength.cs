@@ -8,8 +8,8 @@
         // Set basic charm data
         public override string Sprite => "Strength.png";
         public override string Name => "Strength";
-        public override string Description => "Strength";
-        public override int DefaultCost => 3;
+        public override string Description => "Strength stands for love and courage and brings strength and perseverance to those in need.\n\nWhen your SOUL is full, casting a spell costs all your SOUL, but monstrously increases the damage";
+        public override int DefaultCost => 1;
 
         private Strength() { }
 

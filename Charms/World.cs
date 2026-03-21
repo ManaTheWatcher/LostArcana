@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "World.png";
         public override string Name => "World";
-        public override string Description => "The World";
+        public override string Description => "The World is the last of the Major Arcana. They bring conclusion and encourage you to find your place in the world.\n\nGives you some Lifeblood when you finish a Focus and have none";
         public override int DefaultCost => 1;
 
         private World() { }

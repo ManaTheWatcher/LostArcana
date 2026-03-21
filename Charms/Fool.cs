@@ -11,8 +11,8 @@ namespace LostArcana
         // Set basic charm data
         public override string Sprite => "Fool.png";
         public override string Name => "Fool";
-        public override string Description => "The Fool";
-        public override int DefaultCost => 1;
+        public override string Description => "The Fool is the first of the Major Arcana. They make their journey with a curiosity of what the future will bring.\n\nIncreases mobility of the Crystal Dash, increases it's damage and makes you invulnerable while using Crystal Dash.";
+        public override int DefaultCost => 2;
 
         private Fool() { }
 

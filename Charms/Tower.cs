@@ -8,7 +8,7 @@
         // Set basic charm data
         public override string Sprite => "Tower.png";
         public override string Name => "Tower";
-        public override string Description => "The Tower";
+        public override string Description => "The Tower stands for disaster, destruction and sudden twists of fate.\n\nThe first time you die, you remain barely alive instead and deal tons of damage to everything in sight.";
         public override int DefaultCost => 2;
 
         private Tower() { }

@@ -10,8 +10,8 @@ namespace LostArcana
         // Set basic charm data
         public override string Sprite => "HangedMan.png";
         public override string Name => "Hanged Man";
-        public override string Description => "The Hanged Man";
-        public override int DefaultCost => 1;
+        public override string Description => "The Hanged Man brings new perspectives with them. They see the world upside down after all.\n\nIncreases your attack speed depending on the enemies around you.";
+        public override int DefaultCost => 3;
 
         private HangedMan() { }
 
